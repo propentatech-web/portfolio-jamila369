@@ -1,0 +1,106 @@
+/*section apropos*/
+
+header{
+    display: flex;
+   
+    justify-content: space-between;
+    align-items:start;
+    background-color: rgb(3, 3, 36);
+    border-radius: 5px;
+    
+    
+
+}
+.logo{
+    color: aqua;
+    
+}
+a{
+    text-decoration: none;
+    color:bisque ;
+}
+ a:hover{
+color: aqua;
+
+    
+}
+  ul{
+    display: flex;
+    list-style: none ;
+    gap: 20px;
+    text-decoration: none;
+}
+.pr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+
+
+}
+.pr2{
+    width: 300px;
+    height: 300px;
+    background-image: url(moi.jpg);
+    background-size:cover ;
+    background-position: center;
+    background-repeat:no-repeat ;
+    border-radius: 100px;
+
+}
+#apropos{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: start;
+}
+
+
+body{
+    background-color:rgb(234, 212, 255);
+    color:bisque;
+    background-image: url(second.jpg);
+    padding-left: 29px;
+
+
+
+
+}
+
+.bouton{
+    border: 2px solid;
+    text-decoration: none;
+    color: blueviolet;
+    background-color: aqua;
+}
+.bouton:hover{
+color: aqua;
+}
+/* section competences */
+#competences{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    margin-top:0px;
+    
+}
+.comp{
+border: 2px solid;
+margin: 12px;
+}
+span{
+    color: aqua;
+}
+/*section projet*/
+#projets{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+
+}
+.pro{
+    border: 2px solid;
+    margin:12px ;
+}
