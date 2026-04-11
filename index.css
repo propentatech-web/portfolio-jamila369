@@ -207,6 +207,8 @@ footer {
   object-fit: cover;
   background-size: contain;
   background-repeat: no-repeat;
+  border-radius: 1500px;
+  box-shadow:0px 5px 35px rgb(124, 124, 228) ;
 }
 .gap{
   gap: 90px;
