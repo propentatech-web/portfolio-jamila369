@@ -1,92 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Portfolio Sarah</title>
   <link rel="stylesheet" href="index.css">
-  <script src="index.js" defer></script>
 </head>
-
-
-
 <body>
-  <header>
-    <div class="logo"> <em>SARAH</em></div>
 
+<header class="container nav">
+  <h1><span><em>Sarah</em></span></h1>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#competences">Compétences</a>
+    <a href="#projets">Projets</a>
+    <a href="#contact">Contact</a>
     
-      <nav>
-        <ul>
-          <li><a href="#apropos">A propos</a></li>
-          <li><a href="#competences">Compétences</a></li>
-          <li><a href="#projets">Projets</a></li>
-        </ul>
-      </nav>
+  </nav>
+</header>
+ 
+<section id="accueil" class="taille">
+  <div class="text">
+     
+     <div >
+      <h2>Bonjour, je suis</h2>
+      <h1>Tamen <span><em>Sarah</em></span></h1>
+      <p>Développeuse web front-end . créative . originale</p>
+    
+     </div> 
+  </div>
+  <div>
       
+    </div>
+</section>
+
+<section id="apropos" class="taille">
+  <div id="infosection">
+
+    <div class="text" class="gap">
+      <h2>Qui suis je ?</h2>
+      <p> Je suis une etudiante à l'universite de yaounde 1 licence 1 filiere informatrique fondamentale</p>
+      <p>Je suis passionnée par le developpement particulierement le developpement  web . structurer,<br>
+        styliser  et  rendreles pages interactives sont les trois éléments qui constituent ma  passion pour <br>
+        le developpement web. Neanmoins plustard j'aimerais etre un developpeur full   stack afin de mettre <br>
+        sur pied des applications mobiles avec des interfaces originales.</p>
+        <p>
+          Dans la vie quotidienne je suis ,<br>
+        une personne qui aime relever des defis nouveaux  car j'aimme apprendre dee mes experiences et celles <br>
+        des autres egalement . Je suis une personne avec une vision stoique . En effet je vois en chaque epreuves <br>
+        de le vie une occasion d'apprendre et  en chaque echecs des lecons deguisées et  j'accepte ce que je ne <br>
+        peux pas controler
+        </p>
+        <p>
+          Depuis le  debut de mon apprentissage en developpement web, j'ai deja realiser plusieurs projets que je citerai <br>
+          plus bas ainsi que mon lien  Github où je les ai deploye.
+        </p>
+      
+    </div>
+    <div class="image" class="gap"> <img src=""></div>
+
     
-  </header>
+
+  </div>
+
+</section>
 
 
-  <section id="apropos">
-    
+<section id="competences" class="taille">
+  <h2>Compétences</h2>
+  <div class="comp">
+    <div class="card">
+      <h3>HTML</h3>
+      <p>structurer des pages web</p>
+    </div>
+    <div class="card">
+      <h3>CSS</h3>
+      <p>styliser des pages web</p>
+    </div>
+    <div class="card">
+      <h3>JavaScript</h3>
+      <p>rendre les pages interactives</p>
+    </div>
+    <div class="card">
+      <h3>esprit d'équipe</h3>
+      <p>travailler en equipesur des projets  </p>
+    </div>
+  </div>
+</section>
+<h2>Projets</h2>
+<section id="projets">
+  
+
+  <div class="projet" class="taille">
+    <h3>Site e-commerce</h3>
+    <p>Création d’un site moderne avec design responsive.</p>
+  </div>
+
+  <div class="projet">
+    <h3>Portfolio personnel</h3>
+    <p>Design minimaliste avec animations fluides.</p>
+  </div>
+
+  <div class="projet">
+    <h3>calculatrice</h3>
+    <p>Interface visuel d'une calculatrice.</p>
+  </div>
+
+</section>
+<section id="contact" class="taille">
+  <h2>Me contacter</h2>
+  <form >
+    <div class="form"><label  name=" nom">NOM:</label>
+      <input type="text" id="nom" name="nom" placeholder="votre nom">
+    </div>
+
+    <div class="form"><label name="prenom">PRENOM:</label>
+    <input type="text" id="prenom" name="prenom" placeholder="votre prenom"></div>
+
+    <div class="form"> <label name="message"> Votre message</label>
+    <textarea name="message" id="message" placeholder="salut sarah!"></textarea></div>
+   
+
+
+  </form>
      
 
-<div class="pr1">
-      <h1 > A propos de  moi</h1>
-      <h2>SALUT!</h2>
-      <h3> Je suis  TAMEN <span>Sarah</span></h3>
-           <h4>  Developpeur <span id="text">FRONT END</span></h4>
-             <p>Très passionée par le developpement web : donner une structure au pages Web,<br> donner un sens au visuel , les rendre interactives,
-           <br>sont là les trois choses qui titillent mon attention en permanence.   </p>
-               <a class="bouton" href="#contact">Me contacter</a>
-     </div>
-<div class="pr2">
-      
-     </div>
+</section>
 
+<footer>
+  <ul class="media">
+        <a href="mailto:tamensarah@gmail.com"> tamensarah@gmail.com</a>
+        <a href="https://github.com/in/jamila369" target="_blank" rel="nooepener noreffer" aria-label="Mon github"> https://github.com/in/jamila369</a>
+        <i class="fa-brands fa-github"></i>
+      </ul>
+  <p>© 2026 Sarah - Tous droits réservés
+  </p>
+</footer>
 
-  </section>
-  <h1>Ce que je sais faire </h1>
-  <section id="competences">
-    
-    <div class="comp">
-       <h3> Structurer des pages web</h3>
-       <p> HTML</p>
-
-      </div>
-
-
-    <div class="comp">
-      <h3>Stylisation des pages Web </h3>
-      <p> CSS</p>
-
-    </div>
-
-
-    <div  class="comp">
-    <h3> Animation des pages web</h3>
-    <p>Javascript</p>
-    </div>
-    
-    <div class="comp">
-
-    <h3>Travail d'equipes</h3>
-    <p> Esprit du partage de connaisssances, communication </p>
-    </div>
-
-  </section>
-  <h1>Projets</h1>
-  <section id="projets">
-    
-    <div class="pro">
-      <h3> Création du front end d'un site web(projet réalisé en équipe)</h3>
-
-    </div>
-    <div class="pro">
-      <h3>réalisation de mon premier portfolio que voici</h3>
-    </div>
-
-  </section>
- 
 </body>
 </html>
